@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="sick_pointcloud_v" type="command.py" respawn="false" name="talker" output="screen">
+    <param name="sick_visionary_ip" value="192.168.0.80" type="string" />
+    <param name="sick_visionary_port" value="2122" />
+    <param name="intTimeUs" value="600" />
+    <param name="mountingTilt" value="0.1" />
+
+
+    <!--rosparam command="load" file="$(find sick_pointcloud_v)/launch/includes/sick_pointcloud_v_config.yaml" /-->
+  </node>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/teabot/my_workSpace/a/ros_program_team/hinson_ws/devel
+
+Name: se5035
+Description: Description of se5035
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/teabot/my_workSpace/a/ros_program_team/hinson_ws/devel/lib 
+Requires: 

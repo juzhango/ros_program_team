@@ -1,0 +1,2 @@
+beginner:sick_pointcloud_v:sick_visionary
+-DCATKIN_DEVEL_PREFIX=/home/teabot/my_workSpace/a/ros_program_team/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/teabot/my_workSpace/a/ros_program_team/catkin_ws/install -G Unix Makefiles

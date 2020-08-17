@@ -1,0 +1,8 @@
+prefix=/home/teabot/my_workSpace/a/ros_program_team/catkin_ws/install
+
+Name: beginner
+Description: Description of beginner
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/teabot/my_workSpace/a/ros_program_team/catkin_ws/install/lib 
+Requires: 

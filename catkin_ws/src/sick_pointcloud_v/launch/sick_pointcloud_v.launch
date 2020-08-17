@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- 启动 -->
+  <include file="$(find sick_pointcloud_v)/launch/includes/sick_pointcloud_v.launch.xml">
+  </include>
+
+</launch>

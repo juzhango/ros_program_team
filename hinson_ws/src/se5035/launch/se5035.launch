@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  
+  <node pkg="se5035" name="se5035_node" type="se5035_node" output="screen">
+    <param name="SE5035_IP"    type="string" value="192.168.1.88" />      <!-- 传感器地址-->
+    <param name="SE5035_PORT"  type="string" value="8080" />             <!-- 传感器端口-->
+    <param name="SE5035_Frame" type="string"  value="laser" />           <!-- topic 的 frame -->
+    <param name="SE5035_Topic" type="string" value="scan" />           <!-- topic 名称-->
+    <param name="SE5035_Mode" type="string" value="TCP" />              <!--通信方式  TCP / UDP-->
+  </node>
+
+</launch>
