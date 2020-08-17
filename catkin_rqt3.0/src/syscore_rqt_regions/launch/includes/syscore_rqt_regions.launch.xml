@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="syscore_rqt_regions" type="syscore_rqt_regions" respawn="false" name="syscore_rqt_regions" output="screen">
+
+	<!-- 加载托盘配置参数  -->
+	<rosparam command="load" file="$(find syscore_rqt_regions)/config/laser_avoid_area_config.yaml" />
+  </node>
+</launch>

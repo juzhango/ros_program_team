@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- 启动 -->
+  <include file="$(find syscore_rqt_regions)/launch/includes/syscore_rqt_regions.launch.xml">
+  </include>
+
+</launch>

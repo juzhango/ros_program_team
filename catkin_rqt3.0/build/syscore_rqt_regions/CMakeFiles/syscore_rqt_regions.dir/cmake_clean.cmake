@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "qrc_images.cxx"
+  "ui_main_window.h"
+  "include/syscore_rqt_regions/moc_qnode.cxx"
+  "include/syscore_rqt_regions/moc_main_window.cxx"
+  "include/syscore_rqt_regions/moc_input_format_yaml.cxx"
+  "include/syscore_rqt_regions/moc_polygontable.cxx"
+  "include/syscore_rqt_regions/moc_scenetable.cxx"
+  "include/syscore_rqt_regions/moc_common.cxx"
+  "include/syscore_rqt_regions/moc_pointwidget.cxx"
+  "include/syscore_rqt_regions/moc_pointtable.cxx"
+  "include/syscore_rqt_regions/moc_output_format_yaml.cxx"
+  "CMakeFiles/syscore_rqt_regions.dir/src/pointwidget.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/src/qnode.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/src/main_window.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/src/input_format_yaml.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/src/common.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/src/polygontable.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/src/output_format_yaml.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/src/pointtable.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/src/main.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/src/scenetable.cpp.o"
+  "CMakeFiles/syscore_rqt_regions.dir/qrc_images.cxx.o"
+  "CMakeFiles/syscore_rqt_regions.dir/include/syscore_rqt_regions/moc_qnode.cxx.o"
+  "CMakeFiles/syscore_rqt_regions.dir/include/syscore_rqt_regions/moc_main_window.cxx.o"
+  "CMakeFiles/syscore_rqt_regions.dir/include/syscore_rqt_regions/moc_input_format_yaml.cxx.o"
+  "CMakeFiles/syscore_rqt_regions.dir/include/syscore_rqt_regions/moc_polygontable.cxx.o"
+  "CMakeFiles/syscore_rqt_regions.dir/include/syscore_rqt_regions/moc_scenetable.cxx.o"
+  "CMakeFiles/syscore_rqt_regions.dir/include/syscore_rqt_regions/moc_common.cxx.o"
+  "CMakeFiles/syscore_rqt_regions.dir/include/syscore_rqt_regions/moc_pointwidget.cxx.o"
+  "CMakeFiles/syscore_rqt_regions.dir/include/syscore_rqt_regions/moc_pointtable.cxx.o"
+  "CMakeFiles/syscore_rqt_regions.dir/include/syscore_rqt_regions/moc_output_format_yaml.cxx.o"
+  "/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/devel/lib/syscore_rqt_regions/syscore_rqt_regions.pdb"
+  "/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/devel/lib/syscore_rqt_regions/syscore_rqt_regions"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/syscore_rqt_regions.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

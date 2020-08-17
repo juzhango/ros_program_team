@@ -1,0 +1,16 @@
+-I/opt/ros/indigo/include
+-I/usr/include
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/build/syscore_rqt_regions
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="syscore_rqt_regions"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-DQT_NO_KEYWORDS
+-o
+/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/build/syscore_rqt_regions/include/syscore_rqt_regions/moc_polygontable.cxx
+/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/src/syscore_rqt_regions/include/syscore_rqt_regions/polygontable.h

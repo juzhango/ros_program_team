@@ -1,0 +1,8 @@
+prefix=/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/install
+
+Name: syscore_rqt_regions
+Description: Description of syscore_rqt_regions
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/install/lib 
+Requires: 

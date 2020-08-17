@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/devel/setup.sh

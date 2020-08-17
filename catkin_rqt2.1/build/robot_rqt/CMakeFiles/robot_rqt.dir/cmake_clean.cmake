@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "qrc_images.cxx"
+  "ui_main_window.h"
+  "include/robot_rqt/moc_qnode.cxx"
+  "include/robot_rqt/moc_main_window.cxx"
+  "include/robot_rqt/moc_input_format_yaml.cxx"
+  "include/robot_rqt/moc_polygontable.cxx"
+  "include/robot_rqt/moc_scenetable.cxx"
+  "include/robot_rqt/moc_common.cxx"
+  "include/robot_rqt/moc_pointwidget.cxx"
+  "include/robot_rqt/moc_pointtable.cxx"
+  "include/robot_rqt/moc_output_format_yaml.cxx"
+  "CMakeFiles/robot_rqt.dir/src/pointwidget.cpp.o"
+  "CMakeFiles/robot_rqt.dir/src/qnode.cpp.o"
+  "CMakeFiles/robot_rqt.dir/src/main_window.cpp.o"
+  "CMakeFiles/robot_rqt.dir/src/input_format_yaml.cpp.o"
+  "CMakeFiles/robot_rqt.dir/src/common.cpp.o"
+  "CMakeFiles/robot_rqt.dir/src/polygontable.cpp.o"
+  "CMakeFiles/robot_rqt.dir/src/output_format_yaml.cpp.o"
+  "CMakeFiles/robot_rqt.dir/src/pointtable.cpp.o"
+  "CMakeFiles/robot_rqt.dir/src/main.cpp.o"
+  "CMakeFiles/robot_rqt.dir/src/scenetable.cpp.o"
+  "CMakeFiles/robot_rqt.dir/qrc_images.cxx.o"
+  "CMakeFiles/robot_rqt.dir/include/robot_rqt/moc_qnode.cxx.o"
+  "CMakeFiles/robot_rqt.dir/include/robot_rqt/moc_main_window.cxx.o"
+  "CMakeFiles/robot_rqt.dir/include/robot_rqt/moc_input_format_yaml.cxx.o"
+  "CMakeFiles/robot_rqt.dir/include/robot_rqt/moc_polygontable.cxx.o"
+  "CMakeFiles/robot_rqt.dir/include/robot_rqt/moc_scenetable.cxx.o"
+  "CMakeFiles/robot_rqt.dir/include/robot_rqt/moc_common.cxx.o"
+  "CMakeFiles/robot_rqt.dir/include/robot_rqt/moc_pointwidget.cxx.o"
+  "CMakeFiles/robot_rqt.dir/include/robot_rqt/moc_pointtable.cxx.o"
+  "CMakeFiles/robot_rqt.dir/include/robot_rqt/moc_output_format_yaml.cxx.o"
+  "/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/devel/lib/robot_rqt/robot_rqt.pdb"
+  "/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/devel/lib/robot_rqt/robot_rqt"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robot_rqt.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- 启动 -->
+  <include file="$(find robot_rqt)/launch/includes/robot_rqt.launch.xml">
+  </include>
+
+</launch>

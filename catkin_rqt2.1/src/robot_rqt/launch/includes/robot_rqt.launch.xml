@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="robot_rqt" type="robot_rqt" respawn="false" name="robot_rqt" output="screen">
+
+	<!-- 加载托盘配置参数  -->
+	<rosparam command="load" file="$(find robot_rqt)/config/laser_avoid_area_config.yaml" />
+  </node>
+</launch>

@@ -1,0 +1,2 @@
+robot_rqt:test_pkg
+-DCATKIN_DEVEL_PREFIX=/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/devel -DCMAKE_INSTALL_PREFIX=/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/install -G Unix Makefiles

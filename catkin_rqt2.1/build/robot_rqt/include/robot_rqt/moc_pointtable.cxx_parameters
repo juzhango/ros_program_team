@@ -1,0 +1,16 @@
+-I/opt/ros/indigo/include
+-I/usr/include
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/build/robot_rqt
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="robot_rqt"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-DQT_NO_KEYWORDS
+-o
+/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/build/robot_rqt/include/robot_rqt/moc_pointtable.cxx
+/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/src/robot_rqt/include/robot_rqt/pointtable.h
