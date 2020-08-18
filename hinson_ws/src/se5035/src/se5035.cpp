@@ -71,7 +71,7 @@ void SE5035::recvThread_function()
     unsigned char buf[1024*20];
     char head[5]={0x43,0x6c,0x6f,0x75,0x64};
     double start_angle,end_angle,pointCount;
-    char laser_buf[1024*20];
+    unsigned char laser_buf[1024*20];
     int laser_Num=0;
     int laserPointCount=2700;
     double angleIncrement=0.1;
@@ -139,13 +139,22 @@ void SE5035::recvThread_function()
                         // std::cout<<"msg.angle_increment:"<<angleIncrement<<"\n";
                         // std::cout<<"laserPointCount:"<<laserPointCount<<"\n";
                         // std::cout<<"..................\n";
+                        ROS_INFO("increment:%f   laserPointCount:%d",angleIncrement,laserPointCount);
+                        if(0.1!=angleIncrement || 2700 != laserPointCount)
+                        {
+                            ROS_ERROR("angleIncrement:%f  laserPointCount:%d",angleIncrement,laserPointCount);
+                            sleep(10000);
+                        }
                         for(int i=0;i<laserPointCount;i++)
                         {
                             float dis=Convert(laser_buf[i*4],laser_buf[i*4+1],0,0)/1000.0f;
                             float str=Convert(laser_buf[i*4+2],laser_buf[i*4+3],0,0);
                             msg.ranges[i] = dis;
                             msg.intensities[i] = str;
-
+                            // if(i==laserPointCount/2)
+                            // {
+                            //     ROS_INFO("%f %f",dis,str);
+                            // }
                         }   
                         m_laserPub.publish(msg);
                         laser_Num=0;    
@@ -153,8 +162,12 @@ void SE5035::recvThread_function()
                     
                 }
             }
-            sleep(0.01);
         }
+        else
+        {
+            laser_Num=0;
+        }
+        sleep(0.01);
         
     }
 }
