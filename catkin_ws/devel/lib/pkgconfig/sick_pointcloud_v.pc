@@ -1,8 +1,0 @@
-prefix=/home/teabot/my_workSpace/a/ros_program_team/catkin_ws/devel
-
-Name: sick_pointcloud_v
-Description: Description of sick_pointcloud_v
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/teabot/my_workSpace/a/ros_program_team/catkin_ws/devel/lib 
-Requires: 

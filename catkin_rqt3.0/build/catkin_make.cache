@@ -1,2 +1,0 @@
-syscore_rqt_regions
--DCATKIN_DEVEL_PREFIX=/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/devel -DCMAKE_INSTALL_PREFIX=/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt3.0/install -G Unix Makefiles

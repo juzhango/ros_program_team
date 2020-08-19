@@ -24,7 +24,7 @@
 
 
 
-  <link name="laser_link">
+  <link name="laser_correct_link">
     <visual>
       <origin xyz="0 0 0" />
       <geometry>
@@ -34,14 +34,14 @@
     </visual>
   </link>
   
+  <link name="base_link" />
 
-  <link name="map" />
 
 
   <joint name="laser_link_joint" type="fixed">
-    <parent link="map" />
-    <child link="laser_link" />
-    <origin xyz="0 0 0" />
+    <parent link="base_link" />
+    <child link="laser_correct_link" />
+    <origin xyz="0 0 0.2" rpy="0 0 0" />
   </joint>
 
 </robot>

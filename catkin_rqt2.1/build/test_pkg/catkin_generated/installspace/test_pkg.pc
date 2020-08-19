@@ -1,8 +1,0 @@
-prefix=/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/install
-
-Name: test_pkg
-Description: Description of test_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/install/lib 
-Requires: 

@@ -105,7 +105,7 @@ void SE5035::recvThread_function()
                         if(45==start_angle)
                         {
                             angleIncrement=(end_angle-start_angle)/((double)cout);
-                            laserPointCount=(int)(270.0/angleIncrement);
+                            laserPointCount=2700 / ((int)(angleIncrement*10));
                             laser_Num=0;
                         }
 
@@ -143,7 +143,7 @@ void SE5035::recvThread_function()
                         if(0.1!=angleIncrement || 2700 != laserPointCount)
                         {
                             ROS_ERROR("angleIncrement:%f  laserPointCount:%d",angleIncrement,laserPointCount);
-                            sleep(10000);
+                            //sleep(10000);
                         }
                         for(int i=0;i<laserPointCount;i++)
                         {

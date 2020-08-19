@@ -1,8 +1,0 @@
-prefix=/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/devel
-
-Name: robot_rqt
-Description: Description of robot_rqt
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/teabot/my_workSpace/a/ros_program_team/catkin_rqt2.1/devel/lib 
-Requires: 
