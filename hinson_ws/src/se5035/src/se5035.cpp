@@ -105,7 +105,8 @@ void SE5035::recvThread_function()
                         if(45==start_angle)
                         {
                             angleIncrement=(end_angle-start_angle)/((double)cout);
-                            laserPointCount=2700 / ((int)(angleIncrement*10));
+                            //laserPointCount=(int)(270.0/angleIncrement);
+                            laserPointCount=(int)std::round(270.0/angleIncrement);
                             laser_Num=0;
                         }
 
